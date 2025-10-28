@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ar-AE" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سكاي لاين العقارية الإمارات - عقارات فاخرة في دبي | شقق، فلل، وعقارات تجارية في الإمارات</title>
+    <meta name="description" content="اكتشف عقارات فاخرة في دبي مع سكاي لاين العقارية الإمارات. شقق حصرية، فلل فاخرة، وعقارات تجارية في الإمارات. وكالة مرخصة من RERA مع استشارة مجانية وخدمات متكاملة.">
+    
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://www.skylinepropertiesuae.com/ar-ae">
+    
+    <!-- Hreflang Tags -->
+    <link rel="alternate" hreflang="en-AE" href="https://www.skylinepropertiesuae.com/en-ae">
+    <link rel="alternate" hreflang="ru-AE" href="https://www.skylinepropertiesuae.com/ru-ae">
+    <link rel="alternate" hreflang="ar-AE" href="https://www.skylinepropertiesuae.com/ar-ae">
+    <link rel="alternate" hreflang="x-default" href="https://www.skylinepropertiesuae.com/en-ae">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Traditional Arabic', 'Arabic Typesetting';
+            line-height: 1.8;
+            color: #333;
+            direction: rtl;
+            text-align: right;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .language-switcher {
+            display: flex;
+            gap: 0.5rem;
+            margin-left: 2rem;
+        }
+        
+        .lang-link {
+            color: white;
+            text-decoration: none;
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        
+        .lang-link:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .lang-link.active {
+            background: #ffd700;
+            color: #1e3c72;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+            font-size: 1.05rem;
+        }
+        
+        nav a:hover {
+            opacity: 0.8;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            line-height: 1.4;
+            font-weight: bold;
+        }
+        
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            line-height: 1.8;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #ffd700;
+            color: #333;
+            padding: 1rem 3rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .features {
+            padding: 4rem 0;
+            background: #f8f9fa;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 3rem;
+            color: #1e3c72;
+            font-weight: bold;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+        }
+        
+        .feature-card h3 {
+            color: #2a5298;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        
+        .feature-card p {
+            line-height: 1.9;
+            font-size: 1.05rem;
+        }
+        
+        .price {
+            font-size: 1.6rem;
+            color: #667eea;
+            font-weight: bold;
+            margin: 1rem 0;
+            direction: ltr;
+            text-align: right;
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+        
+        .feature-list li {
+            padding: 0.5rem 0;
+            padding-right: 1.5rem;
+            position: relative;
+            line-height: 1.8;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            right: 0;
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .contact-section {
+            padding: 4rem 0;
+            background: white;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .contact-card {
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-right: 4px solid #667eea;
+        }
+        
+        .contact-card h3 {
+            color: #1e3c72;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        
+        .contact-card p {
+            color: #555;
+            line-height: 1.9;
+            font-size: 1.05rem;
+        }
+        
+        .contact-card a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 25px;
+            font-size: 1rem;
+            margin: 1rem 0.5rem 1rem 0;
+            font-weight: bold;
+        }
+        
+        .info-box {
+            background: #e3f2fd;
+            border-right: 4px solid #2196f3;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+        
+        .info-box h3 {
+            color: #1565c0;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .info-box p {
+            line-height: 1.9;
+            font-size: 1.05rem;
+        }
+        
+        footer {
+            background: #1e3c72;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h4 {
+            margin-bottom: 1rem;
+            color: #ffd700;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        
+        .footer-section p {
+            line-height: 1.8;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: #ffd700;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-icon {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #2a5298;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            transition: background 0.3s;
+        }
+        
+        .social-icon:hover {
+            background: #ffd700;
+            color: #1e3c72;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            opacity: 0.8;
+            line-height: 1.8;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero p {
+                font-size: 1.2rem;
+            }
+            
+            nav ul {
+                gap: 1rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .header-content {
+                justify-content: center;
+                text-align: center;
+            }
+            
+            .language-switcher {
+                margin: 1rem 0;
+            }
+            
+            .section-title {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <nav>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#properties">العقارات</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </nav>
+                <div class="language-switcher">
+                    <a href="https://www.skylinepropertiesuae.com/ar-ae" class="lang-link active">AR</a>
+                    <a href="https://www.skylinepropertiesuae.com/ru-ae" class="lang-link">RU</a>
+                    <a href="https://www.skylinepropertiesuae.com/en-ae" class="lang-link">EN</a>
+                </div>
+                <div class="logo">سكاي لاين العقارية الإمارات</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <h1>بوابتك إلى الحياة الفاخرة في دبي</h1>
+                <p>اكتشف شقق استثنائية، فلل راقية، وعقارات تجارية مميزة في جميع أنحاء الإمارات</p>
+                <a href="#properties" class="cta-button">عرض العقارات</a>
+            </div>
+        </section>
+
+        <section class="features" id="properties">
+            <div class="container">
+                <h2 class="section-title">عقارات مميزة</h2>
+                
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <h3>شقق فاخرة</h3>
+                        <p>استمتع بحياة عصرية راقية في أرقى أحياء دبي. شققنا الفاخرة تتميز بتصميم معاصر وتشطيبات ممتازة ومرافق عالمية المستوى تشمل مسابح، مراكز لياقة بدنية، وأمن على مدار الساعة.</p>
+                        <p class="price">ابتداءً من 1,200,000 د.إ (AED)</p>
+                        <p><strong>المواقع:</strong> وسط مدينة دبي، الخليج التجاري، دبي مارينا</p>
+                        <ul class="feature-list">
+                            <li>من غرفة نوم واحدة إلى 4 غرف نوم</li>
+                            <li>نظام المنزل الذكي</li>
+                            <li>إطلالات بانورامية على المدينة</li>
+                            <li>مرافق ترفيهية متكاملة</li>
+                        </ul>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>فلل على الشاطئ</h3>
+                        <p>انغمس في رفاهية العيش على الواجهة البحرية مع مجموعتنا المذهلة من الفلل. كل عقار يوفر وصولاً خاصاً إلى الشاطئ، حدائق واسعة، وإطلالات خلابة على البحر. مثالي للعائلات التي تبحث عن الخصوصية والفخامة.</p>
+                        <p class="price">ابتداءً من 8,500,000 د.إ (AED)</p>
+                        <p><strong>المواقع:</strong> نخلة جميرا، جزيرة جميرا باي، دبي هيلز إستيت</p>
+                        <ul class="feature-list">
+                            <li>من 4 إلى 7 غرف نوم</li>
+                            <li>مسابح خاصة وحدائق منسقة</li>
+                            <li>وصول مباشر إلى الشاطئ</li>
+                            <li>مواقف سيارات متعددة</li>
+                        </ul>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>عقارات تجارية</h3>
+                        <p>ارتقِ بأعمالك مع عقارات تجارية راقية في المناطق التجارية المزدهرة في دبي. من المكاتب الحديثة إلى المحلات التجارية، نقدم عقارات مصممة لتعزيز حضورك المؤسسي وتحقيق النجاح التجاري.</p>
+                        <p class="price">ابتداءً من 2,800,000 د.إ (AED)</p>
+                        <p><strong>المواقع:</strong> مركز دبي المالي العالمي، الخليج التجاري، أبراج بحيرات جميرا</p>
+                        <ul class="feature-list">
+                            <li>تصاميم مرنة وقابلة للتخصيص</li>
+                            <li>بنية تحتية تقنية متطورة</li>
+                            <li>مواقع استراتيجية متميزة</li>
+                            <li>عوائد استثمارية عالية</li>
+                        </ul>
+                    </article>
+                </div>
+                
+                <div style="text-align: center;">
+                    <span class="badge">✓ مرخصة من RERA</span>
+                    <span class="badge">✓ استشارة مجانية</span>
+                    <span class="badge">✓ خدمة عملاء متميزة</span>
+                </div>
+                
+                <div class="info-box">
+                    <h3>خدماتنا المتكاملة</h3>
+                    <p>نوفر لك الدعم الكامل في رحلة شراء عقارك من البداية وحتى تسليم المفاتيح. فريقنا من الخبراء يساعدك في اختيار العقار المناسب، إتمام الإجراءات القانونية، الحصول على التمويل العقاري، وتقديم الاستشارات الاستثمارية. نحن معك في كل خطوة لضمان تجربة شراء سلسة وآمنة.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2 class="section-title">تواصل معنا</h2>
+                
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3>📞 الهاتف</h3>
+                        <p><strong>1234 555 4 971+</strong></p>
+                        <p>متاح للاتصال خلال أوقات العمل الرسمية</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>💬 واتساب</h3>
+                        <p><strong>4567 123 50 971+</strong></p>
+                        <p>ردود سريعة على جميع استفساراتكم العقارية</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>✉️ البريد الإلكتروني</h3>
+                        <p><a href="mailto:info@skylinepropertiesuae.com"><strong>info@skylinepropertiesuae.com</strong></a></p>
+                        <p>راسلنا في أي وقت وسنرد عليك بأسرع وقت ممكن</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>📍 عنوان المكتب</h3>
+                        <p><strong>سكاي لاين العقارية الإمارات</strong></p>
+                        <p>مكتب 2401، مارينا بلازا<br>دبي مارينا، دبي<br>الإمارات العربية المتحدة</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>🕐 أوقات العمل</h3>
+                        <p><strong>التوقيت الرسمي لدولة الإمارات (GST)</strong></p>
+                        <p>الأحد - الخميس: 9:00 صباحاً - 6:00 مساءً<br>
+                        السبت: 10:00 صباحاً - 4:00 مساءً<br>
+                        الجمعة: عطلة رسمية</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>🎯 خدمة عملاء متميزة</h3>
+                        <p>فريق من المستشارين المحترفين جاهز لخدمتك باللغة العربية</p>
+                        <p><strong>نتحدث أيضاً:</strong> الإنجليزية، الروسية، الهندية، الأوردو</p>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem; padding: 2rem; background: #f8f9fa; border-radius: 8px;">
+                    <h3 style="color: #1e3c72; margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">🎁 احجز استشارتك المجانية اليوم</h3>
+                    <p style="font-size: 1.15rem; color: #555; line-height: 1.9;">اتصل بنا الآن للحصول على استشارة مجانية مع خبرائنا. سنساعدك في اختيار العقار المثالي في الإمارات ونقدم لك كل المعلومات اللازمة عن الاستثمار العقاري في دبي.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>عن الشركة</h4>
+                    <p>سكاي لاين العقارية الإمارات هي وكالة عقارية مرخصة من RERA متخصصة في الشقق الفاخرة، الفلل الراقية، والعقارات التجارية في دبي والإمارات العربية المتحدة.</p>
+                    <p style="margin-top: 1rem;">نلتزم بتقديم خدمة استثنائية ومهنية لعملائنا.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#properties">كتالوج العقارات</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                        <li><a href="#">دليل المشتري</a></li>
+                        <li><a href="#">دليل البائع</a></li>
+                        <li><a href="#">التمويل العقاري</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>أنواع العقارات</h4>
+                    <ul>
+                        <li><a href="#">شقق فاخرة</a></li>
+                        <li><a href="#">فلل على الشاطئ</a></li>
+                        <li><a href="#">عقارات تجارية</a></li>
+                        <li><a href="#">بنتهاوس</a></li>
+                        <li><a href="#">عقارات استثمارية</a></li>
+                        <li><a href="#">مشاريع تحت الإنشاء</a></li>
+                        <li><a href="#">عقارات جاهزة للتسليم</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>تابعنا</h4>
+                    <p>تابعنا على وسائل التواصل الاجتماعي للحصول على آخر العروض العقارية وأخبار السوق.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="فيسبوك">f</a>
+                        <a href="#" class="social-icon" aria-label="انستغرام">📷</a>
+                        <a href="#" class="social-icon" aria-label="لينكدإن">in</a>
+                        <a href="#" class="social-icon" aria-label="تويتر">𝕏</a>
+                        <a href="#" class="social-icon" aria-label="واتساب">💬</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 سكاي لاين العقارية الإمارات. جميع الحقوق محفوظة. | مرخصة من RERA | سياسة الخصوصية | الشروط والأحكام</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
